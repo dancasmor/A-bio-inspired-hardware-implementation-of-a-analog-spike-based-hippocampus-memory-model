@@ -1,8 +1,8 @@
-# A bio-inspired hardware implementation of a analog spike-based hippocampus memory model
+# A bio-inspired hardware implementation of an analog spike-based hippocampus memory model
 
 <h2 name="Description">Description</h2>
 <p align="justify">
-Code on which the paper entitled "A bio-inspired hardware implementation of a analog spike-based hippocampus memory modely" is based, sent to a journal and awaiting review.
+Code on which the paper entitled "A bio-inspired hardware implementation of an analog spike-based hippocampus memory modely" is based, sent to a journal and awaiting review.
 </p>
 <p align="justify">
 A fully functional analog spike-based implementation of a memory model bio-inspired on the hippocampus implemented on the <a href="https://ieeexplore.ieee.org/document/8094868">DYNAPSE1</a> hardware platform using the technology of the Spiking Neuronal Network (SNN) is presented. The code is written in Python and makes use of the Samna library and their adaptation for DYNAPSE1 called <a href="https://code.ini.uzh.ch/ncs/libs/dynap-se1">dynap-se1</a>. In addition, the necessary scripts to replicate the tests and plots carried out in the paper are included, together with data and plots of the tests.
@@ -29,11 +29,11 @@ Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to 
 
 <h2 name="Article">Article</h2>
 <p align="justify">
-<strong>Title</strong>: A bio-inspired hardware implementation of a analog spike-based hippocampus memory model
+<strong>Title</strong>: A bio-inspired hardware implementation of an analog spike-based hippocampus memory model
 
-<strong>Abstract</strong>: The growing need for data has led to the demand for better computational systems by exploring alternative technologies. Neuromorphic engineering addresses this problem by developing computational systems that mimic biology to achieve the superior capabilities of the brain. However, neuromorphic memory systems remain a challenge with much work to be done. Among all brain regions, the hippocampus stands out as an alternative to attack this problem as an autoassociative memory capable of learning large amounts of information quickly and recalling it efficiently. In this work, we propose a computational spike-based memory model bio-inspired on the hippocampus that takes advantage of the benefits of an analog design: energy efficiency, robustness to noise and better real-time operation. This model is able to learn memories, recall them from a fragment and forget them. This model has been implemented on DYNAPSE1 using Spiking Neural Networks and a series of experiments have demonstrated its correct operation. This work presents the first hardware implementation on a special-purpose hardware platform for Spiking Neural Networks of a fully functional analog spike-based hippocampal bio-inspired memory model, paving the road for the development of future more complex neuromorphic systems.
+<p align="justify"><strong>Abstract</strong>: The need for processing the growing amount of data that is being sensed and acquired has led to the demand for mode power efficient computational systems, by exploring alternative computing paradigms and technologies. Neuromorphic engineering is a promising approach that can address this problem by developing electronic systems that faithfully emulate the computational properties of animal brains. In particular, the hippocampus stands out as one of the most relevant brain region for implementing  auto associative memories capable of learning large amounts of information quickly and recalling it efficiently. In this work, we present a computational spike-based memory model inspired by the hippocampus that takes advantage of the features of analog electronic circuits: energy efficiency, compactness, and real-time operation. This model can learn memories, recall them from a partial fragment and forget. It  has been implemented as a Spiking Neural Networks directly on a mixed-signal neuromorphic chip. We describe the details of the hardware implementation and demonstrate its operation via a series of benchmark experiments, showing how this research prototype paves the way for the development of future large-scale  neuromorphic computing systems.</p>
 
-<strong>Keywords</strong>: Hippocampus model, analogic memory model, spiking neural networks, Neuromorphic engineering, DYNAPSE
+<strong>Keywords</strong>: Hippocampus model, analogic memory model, spiking neural networks, neuromorphic engineering, DYNAP-SE
 
 <strong>Author</strong>: Daniel Casanueva-Morato
 
