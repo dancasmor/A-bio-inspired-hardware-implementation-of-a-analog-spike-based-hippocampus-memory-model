@@ -5,7 +5,7 @@
 Code on which the paper entitled "A bio-inspired hardware implementation of an analog spike-based hippocampus memory modely" is based, sent to a journal and awaiting review.
 </p>
 <p align="justify">
-A fully functional analog spike-based implementation of a memory model bio-inspired on the hippocampus implemented on the <a href="https://ieeexplore.ieee.org/document/8094868">DYNAPSE1</a> hardware platform using the technology of the Spiking Neuronal Network (SNN) is presented. The code is written in Python and makes use of the Samna library and their adaptation for DYNAPSE1 called <a href="https://code.ini.uzh.ch/ncs/libs/dynap-se1">dynap-se1</a>. In addition, the necessary scripts to replicate the tests and plots carried out in the paper are included, together with data and plots of the tests.
+A fully functional analog spike-based implementation of a memory model bio-inspired by the hippocampus implemented on the <a href="https://ieeexplore.ieee.org/document/8094868">DYNAP-SE</a> hardware platform using the technology of the Spiking Neuronal Network (SNN) is presented. The code is written in Python and makes use of the Samna library and their adaptation for DYNAP-SE called <a href="https://code.ini.uzh.ch/ncs/libs/dynap-se1">dynap-se1</a>. In addition, the necessary scripts to replicate the tests and plots carried out in the paper are included, together with data and plots of the tests.
 </p>
 <p align="justify">
 Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to properly reference the works cited here.
@@ -31,7 +31,7 @@ Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to 
 <p align="justify">
 <strong>Title</strong>: A bio-inspired hardware implementation of an analog spike-based hippocampus memory model
 
-<p align="justify"><strong>Abstract</strong>: The need for processing the growing amount of data that is being sensed and acquired has led to the demand for mode power efficient computational systems, by exploring alternative computing paradigms and technologies. Neuromorphic engineering is a promising approach that can address this problem by developing electronic systems that faithfully emulate the computational properties of animal brains. In particular, the hippocampus stands out as one of the most relevant brain region for implementing  auto associative memories capable of learning large amounts of information quickly and recalling it efficiently. In this work, we present a computational spike-based memory model inspired by the hippocampus that takes advantage of the features of analog electronic circuits: energy efficiency, compactness, and real-time operation. This model can learn memories, recall them from a partial fragment and forget. It  has been implemented as a Spiking Neural Networks directly on a mixed-signal neuromorphic chip. We describe the details of the hardware implementation and demonstrate its operation via a series of benchmark experiments, showing how this research prototype paves the way for the development of future large-scale  neuromorphic computing systems.</p>
+<p align="justify"><strong>Abstract</strong>: The need for processing at the edge the increasing amount of data that is being produced by multitudes of sensors has led to the demand for mode power efficient computational systems, by exploring alternative computing paradigms and technologies. Neuromorphic engineering is a promising approach that can address this need by developing electronic systems that faithfully emulate the computational properties of animal brains. In particular, the hippocampus stands out as one of the most relevant brain region for implementing  auto associative memories capable of learning large amounts of information quickly and recalling it efficiently. In this work, we present a computational spike-based memory model inspired by the hippocampus that takes advantage of the features of analog electronic circuits: energy efficiency, compactness, and real-time operation. This model can learn memories, recall them from a partial fragment and forget. It has been implemented as a Spiking Neural Networks directly on a mixed-signal neuromorphic chip. We describe the details of the hardware implementation and demonstrate its operation via a series of benchmark experiments, showing how this research prototype paves the way for the development of future robust and low-power mixed-signal neuromorphic processing systems.</p>
 
 <strong>Keywords</strong>: Hippocampus model, analogic memory model, spiking neural networks, neuromorphic engineering, DYNAP-SE
 
@@ -44,7 +44,7 @@ Please go to section <a href="#CiteThisWork">cite this work</a> to learn how to 
 <h2 name="Instalation">Instalation</h2>
 <p align="justify">
 <ol>
-	<li>Have or have access to the DYNAPSE1 hardware platform
+	<li>Have or have access to the DYNAP-SE hardware platform
 	<li>Python version 3.8.10</li>
 	<li>Python libraries:</li>
 	<ul>
@@ -85,13 +85,9 @@ Work in progress...
 
 <h2 name="Credits">Credits</h2>
 <p align="justify">
-The author of the original idea is Daniel Casanueva-Morato while working on a research project of the <a href="http://www.rtc.us.es/">RTC Group</a>.
+This work is part of the project SANEVEC TED2021-130825B-I00, funded by the Ministerio de Ciencia e Innovaci\'on (MCIN), Agencia Estatal de  Investigaci\'on (AEI) of Spain, MCIN/AEI/10.13039/501100011033, and by the European Union NextGenerationEU/PRTR, and was partially supported by project PID2019-105556GB-C33 funded by MCIN/ AEI /10.13039/501100011033. D. C.-M. was supported by a "Formaci\'{o}n de Profesorado Universitario" Scholarship and by "Ayudas complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
 
-Daniel Casanueva-Morato would like to thank Giacomo Indiveri and his group for hosting him during a three-months internship between 1st June 2023 and 31th August 2023, during which this idea was originated and most of the results presented in this work were obtained.
-
-This research was partially supported by project TED2021-130825B-I00. 
-
-D. C.-M. was supported by a "Formación de Profesor Universitario" Scholarship and by "Ayuda complementarias de movilidad" from the Spanish Ministry of Education, Culture and Sport.
+D.~Casanueva-Morato would like to thank Giacomo Indiveri and his group for hosting him during a three-month internship between 1st June 2023 and 31th August 2023, during which the idea of this paper was originated and most of the results presented in this work were obtained.
 </p>
 
 
